@@ -1,0 +1,152 @@
+body {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+  justify-content: center;
+  align-items: center;
+}
+/* .container1 {
+  width: 95%;
+  margin: 0 auto;
+} */
+.sharpcode {
+  font-size: 30px;
+  color: #4b0082;
+  font-weight: bolder;
+  margin-right: 500px;
+}
+.correct {
+  margin-top: 20px;
+}
+.register {
+  margin-left: 30px;
+  color: #4b0082;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.register:hover {
+  text-decoration: none;
+}
+
+.container-filter {
+  visibility: hidden;
+  margin-top: 60px;
+}
+.container-filter2 {
+  margin-top: 60px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+table.list {
+  width: 90%;
+}
+#employeeList {
+  margin-bottom: 50px;
+}
+.stylebutton {
+  color: #0000ee;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even),
+table.list thead > tr {
+  background-color: #dddddd;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 30%;
+  background-color: #ddd;
+  color: #000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form div.form-action-buttons {
+  text-align: right;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0000ee;
+  margin-right: 4px;
+}
+
+label.validation-error {
+  color: red;
+  margin-left: 5px;
+}
+
+.hide {
+  display: none;
+}
+.tableMe {
+  background: purple;
+  margin: 0 auto;
+  width: 50%;
+  border-color: none;
+}
+.tableMe div {
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+.tableMe input {
+  border-radius: 90px;
+}
+.tableMe input:focus {
+  outline-width: 0;
+}
+.tableUs {
+  margin-top: 50px;
+  width: 70%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.holiday {
+  color: #4b0082;
+  padding: 10px;
+  font-weight: bold;
+}
