@@ -1,0 +1,652 @@
+/*********************************************************
+	TABLE OF CONTENTS
+	1. leftView
+	2. left-title Section
+	3. left-Content Section
+	4. left-footer Section
+	5. RightView
+  6. Right-title Section
+  7. Right-Content Section
+  8. Right-footer Section
+**********************************************************/
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ----------- ------------LeftView----------------------------- */
+#leftView {
+  font-size: 16px;
+  min-height: 100vh;
+  background: url(../img/Left_image.png) center/cover no-repeat;
+}
+
+/* for smaller phones */
+@media only screen and (max-width: 767px) {
+  #leftView {
+    padding: 0% !important;
+  }
+}
+
+/* for tablets */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  #leftView {
+    padding: 0 10% !important;
+  }
+}
+
+/* for Laptops */
+@media only screen and (orientation: landscape) and (min-width: 768px) {
+  #leftView {
+    max-width: 50% !important;
+  }
+  #leftView {
+    padding: 0 5% !important;
+  }
+}
+
+/* ----------- ------------Left-Title----------------------------- */
+
+#leftView #left-title {
+  min-height: 20vh;
+}
+#left-title img {
+  height: 85%;
+}
+#left-title .heading {
+  font-size: 18px;
+  line-height: 1;
+}
+.section-divider-white {
+  display: block;
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid white;
+}
+
+/* for smaller phones */
+@media only screen and (max-width: 767px) {
+  #left-title .heading {
+    font-size: 15px !important;
+  }
+  #left-title img {
+    height: 70%;
+  }
+}
+
+/* for tablets */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  #left-title .heading {
+    font-size: 26px !important;
+    line-height: 1.2;
+    letter-spacing: 1;
+  }
+  #left-title img {
+    height: 90% !important;
+  }
+}
+
+/* ----------- ------------LeftContent----------------------------- */
+
+#left-Content {
+  min-height: 65vh;
+  padding: 5% 0;
+  color: white;
+}
+#left-Content .btn {
+  font-size: 10px;
+}
+#left-Content .fullMeaning {
+  font-size: 15px;
+  line-height: 1.2;
+}
+#left-Content .section-divider-small {
+  display: block;
+  margin-top: 3%;
+  width: 30%;
+  border-bottom: 2px solid #ffc107;
+}
+#left-Content .form-header .text-left {
+  font-size: 20px;
+}
+#left-Content label {
+  font-size: 10px;
+}
+#left-Content .form-control {
+  font-size: 13px;
+}
+#left-Content .form-group {
+  margin-bottom: 1% !important;
+}
+#leftView input {
+  background-color: rgba(255, 255, 255, 0.125);
+  border: 1px thin white;
+  color: white;
+}
+
+#leftView input::placeholder {
+  color: white;
+}
+
+#left-Content .btn {
+  font-size: 13px;
+  margin: 1.5% 0;
+  padding: 8px 16px;
+  font-weight: 500;
+}
+/* for tablets */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  #left-Content .fullMeaning {
+    letter-spacing: 2;
+    font-size: 18px;
+  }
+  #left-Content label {
+    font-size: 13px;
+  }
+  #left-Content .form-control {
+    font-size: 16px;
+  }
+}
+
+/*for smaller Phones */
+@media only screen and (max-width: 767px) {
+  #left-Content .fullMeaning {
+    font-size: 13px;
+  }
+  #left-Content label {
+    font-size: 11px;
+  }
+}
+
+/* ----------- ------------LeftFooter----------------------------- */
+#left-footer {
+  min-height: 15vh;
+}
+
+/* ----------- ------------RightView----------------------------- */
+
+#rightView {
+  min-height: 100vh;
+}
+
+/* for smaller phones */
+@media only screen and (max-width: 767px) {
+  #rightView {
+    padding: 0% !important;
+  }
+}
+
+/* for tablets */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  #rightView {
+    padding: 0 10% !important;
+  }
+}
+
+/* for Laptops */
+@media only screen and (orientation: landscape) and (min-width: 768px) {
+  #rightView {
+    max-width: 50% !important;
+  }
+  #rightView {
+    padding: 0 5% !important;
+  }
+}
+
+/* ----------- ------------RightTitle----------------------------- */
+#right-title {
+  min-height: 15vh;
+}
+#right-title .portals {
+  font-size: 25px;
+  font-weight: bold;
+}
+#right-title #number {
+  font-size: 15px;
+  padding: 3px 10px;
+  background-color: green;
+  margin-left: 10px;
+  border-radius: 0.3rem;
+  color: white;
+}
+#right-title .text-right {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+.section-divider {
+  display: block;
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* smaller-Phones */
+@media only screen and (max-width: 767px) {
+  #right-title .portals {
+    font-size: 19px;
+  }
+  #right-title .text-right {
+    font-size: 10px;
+  }
+}
+
+/* for tablets */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  #right-title .portals {
+    letter-spacing: 1.5;
+  }
+  #right-title .text-right {
+    font-size: 13px;
+  }
+}
+
+/* ----------- ------------RightContent----------------------------- */
+#right-content {
+  height: 80vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Styling for CustomSearch */
+#search .form-group {
+  margin-bottom: 0px !important;
+  position: relative;
+}
+
+#search input[type="search"] {
+  font-size: 14px;
+  background-color: rgb(248, 242, 242);
+}
+
+#search .form-group .fa-search {
+  position: absolute;
+  top: 30%;
+  left: 92%;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#search .search-select {
+  display: none;
+  position: absolute;
+  max-height: 70vh;
+  overflow-y: auto;
+  border-radius: 0.4rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: white;
+  top: 105%;
+  left: auto;
+  z-index: 99;
+}
+.search-select .search-option,
+.search-select .default-option {
+  padding: 5px 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.search-select .search-option:hover,
+.search-select .search-option:focus {
+  background-color: rgb(223, 219, 219);
+}
+
+.search-option .search-option-title {
+  font-size: 16px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-weight: bold;
+}
+.search-option .search-option-details {
+  font-size: 12px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+/* Styling for Accordion */
+.btn.collapsible-link:focus {
+  box-shadow: none !important;
+}
+.accordion > .card {
+  border-left: none !important;
+  border-right: none !important;
+}
+.accordion > .card:first-child {
+  border-top: none;
+}
+.accordion > .card .header {
+  font-weight: bold !important;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.collapsible-link {
+  width: 100%;
+  position: relative;
+  text-align: left;
+}
+
+.collapsible-link::before {
+  content: "\f107";
+  position: absolute;
+  top: 50%;
+  right: 0.8rem;
+  transform: translateY(-50%);
+  display: block;
+  font-family: "FontAwesome";
+  font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded="true"]::before {
+  content: "\f106";
+}
+
+.btn.collapsible-link:focus {
+  box-shadow: none !important;
+}
+
+/* styling for Cards */
+.smaller-card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  height: 100px;
+  width: 30%;
+  margin-left: 1.66%;
+  margin-right: 1.66%;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  margin-bottom: 10px;
+}
+.smaller-card-title {
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 25%;
+}
+.smaller-card-details {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 10%;
+}
+.smaller-card .check-icon {
+  display: none;
+}
+#hide1 {
+  border: 1px solid red;
+  color: red;
+  padding: 10px;
+}
+#hide2 {
+  border: 1px solid red;
+  color: red;
+  padding: 10px;
+}
+
+@media only screen and (max-device-width: 769px) {
+  .smaller-card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    height: 100px;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+  }
+}
+
+/* ----------- ------------RightFooter----------------------------- */
+#right-footer {
+  min-height: 5vh;
+  width: 100%;
+  margin: auto;
+}
+#right-footer .nav-link {
+  font-size: 10px;
+  padding-left: 0px;
+}
+#right-footer .text-right {
+  font-size: 8px;
+}
+
+/* #leftView{
+  font-size:16px;
+  font-family: 'Open Sans', sans-serif;
+  
+  color:white;
+}
+#left-title img{
+  height:90%;
+}
+#left-title heading{
+
+}
+
+#left-Content .container{
+  padding-top:5%;
+}
+
+#leftView input{
+  background-color:rgba(255,255,255,.125);
+  border:1px thin white;
+  color:white;
+}
+
+#leftView input::placeholder{
+  color:white;
+}
+  #left-title{
+    height:20vh;
+    overflow: hidden;
+  }
+  #left-Content{
+    height:65vh;
+    overflow: hidden;
+  }
+  #left-footer{
+    height:15vh;
+    overflow: hidden;
+  }
+  #right-title{
+    height:15vh;
+  }
+  #right-content{
+    height:80vh;
+    overflow-x:hidden;
+    overflow-y:auto;
+  }
+  #right-footer{
+    height:5vh;
+  }
+
+
+#number{
+ padding:1px 10px;
+ background-color: green;
+ margin-left:10px;
+ border-radius: 0.3rem;
+ color:white;
+}
+#search .input{
+ margin-bottom: 0px !important;
+ position:relative;
+}
+
+.input span.fa-search{
+  position:absolute;
+  top:30%;
+  left:92%;
+  color: rgba(0,0,0,.4);
+}
+
+#search input[type="search"]{
+ font-size: 14px;
+ background-color: rgb(248, 242, 242);
+}
+
+#search .search-select{
+ display:none;
+ position:absolute;
+ max-height:70vh;
+ overflow-y:auto;
+ border-radius: 0.4rem;
+ border:1px solid rgba(0,0,0,.125);
+ background-color:white;
+ top:105%;
+ left: auto;
+ z-index:99;
+}
+#search .search-select .default-option{
+ display:none;
+}
+#search .search-select .search-option, #search .search-select .default-option{
+ padding:5px 15px;
+ border-bottom:1px solid rgba(0,0,0,.125);
+}
+#search .search-select .search-option:hover,#search .search-select .search-option:focus{
+ background-color: rgb(223, 219, 219);
+}
+
+#search .search-option .search-option-title{
+ font-size:16px !important;
+ padding:0px !important;
+ margin:0px !important;
+ font-weight:bold;
+}
+#search .search-option .search-option-details{
+ font-size:12px !important;
+ padding:0px !important;
+ margin: 0px !important
+}
+
+
+.collapsible-link {
+  width: 100%;
+  position: relative;
+  text-align: left;
+}
+
+.collapsible-link::before {
+  content: '\f107';
+  position: absolute;
+  top: 50%;
+  right: 0.8rem;
+  transform: translateY(-50%);
+  display: block;
+  font-family: 'FontAwesome';
+  font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+  content: '\f106'; 
+}
+
+.btn.collapsible-link:focus{
+  box-shadow: none !important;
+}
+.accordion>.card{
+  border-left: none !important;
+  border-right: none !important;
+}
+.accordion>.card:first-child{
+  border-top:none;
+}
+.accordion>.card .header{
+  font-weight:bold!important;
+  color:rgba(0,0,0,0.5);
+}
+.section-divider{
+  display:block;
+  width:100%;
+  margin:auto;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.section-divider-white{
+  display:block;
+  width:92%;
+  margin:auto;
+  border-bottom: 1px solid white;
+}
+.section-divider-small{
+  display:block;
+  padding:1% 0 !important;
+  width:30%;
+  border-bottom:2px solid #ffc107;
+}
+
+.right-footer{
+  width:100%;
+  margin:auto
+}
+
+.smaller-card{
+    border: 1px solid rgba(0,0,0,.125);
+    height:105px;
+    width:30%;
+    margin-left:1.66%;
+    margin-right: 1.66%;
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,.05);
+    border-radius: 0.5rem;
+    margin-bottom:10px;
+}
+.smaller-card-title{
+ font-weight:bold;
+ font-size:13px;
+ margin-top: 30%;
+}
+.smaller-card-details{
+  font-size: 10px;
+  color:rgba(0,0,0,.4);
+  margin-top:10%;
+}
+.text-small{
+  font-size:12px;
+}
+.text-ExtraSmall{
+  font-size:10px;
+}
+.nav-link{
+  padding-left:0;
+}
+
+.accordion .smaller-card .check-icon{
+  display:none;
+}
+
+
+@media only screen
+and (max-device-width:500px)
+{
+  #rightView .container{
+    padding-right:4% !important;
+    padding-left:4% !important;
+  }
+  #leftView{
+    padding:0!important;
+  }
+  #rightView{
+    padding:0!important;
+  }
+  #left-title img{
+    height:60%;
+  }
+  #left-title .body{
+    padding:2% 0!important;
+  }
+  #left-title h5{
+    font-size:18px;
+  }
+  .smaller-card{
+    width:45%!important;
+  }
+}
+
+@media only screen
+and (max-device-width:329px){
+  #left-title img{
+    height:50%;
+  }
+  #left-title .heading{
+    font-size:10px;
+  }
+}
+
+ */

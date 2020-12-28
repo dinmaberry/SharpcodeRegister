@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/custom-two.css">
+    <link rel="stylesheet" href="Zebra_Dialog-master/public/css/default/zebra_dialog.css" type="text/css">
+    <script src="/lib/jquery-3.5.1.min.js"></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+   <div class="container">
+        <div class="general-holder">
+            <div class="image-holder">
+                <img src="/img/Logo.png" alt="logo" id="logo-move">
+                <p class="dept"><span id="center-me">Department of </span><br><span class="center-us">Petroleum Resources</span> </p>
+            </div>
+            <div class="email-holder">
+                <p>meredaniel@gmail.com || <a id="logout" href="#">Logout</a></p>
+            </div>
+        </div>
+        <div class="payment">
+            <p class="change">Make Payment</p>
+        </div>
+        <div class="dpr-heading">
+            <p>department of petroleum resources (dpr) - <br> 0243568485652</p>
+        </div>
+        <div class="dissappear">
+          <div class="success text-primary"></div>
+          <div class="name-hold"></div>
+          <div class="service-name"></div>
+          <div class="paid"></div>
+          <div class="phone"></div>
+          <div class="state"></div>
+          <button class="btn btn-primary style-me" id="back">Back</button>
+        
+        </div>
+        <div class="input-part">
+            <label class="" for="">Name of service/purpose*</label>
+                <div class="form-group">
+                    <select class="select-width" id="select-menu">
+                        <option value="0" >Please select service</option>
+                        <option value="1">Exploratory Activities</option>
+                        <option value="2">Development in View</option>
+                        <option value="3">Development in Progress</option>
+                        <option value="4">Development To Be Improved</option>
+                    </select>
+                </div>
+                <div class="first-table">
+                    <table class="table" id="one">
+                        <thead>
+                          <tr>
+                            <th colspan="5">Item</th>
+                            <th scope="col">Unit Price</th>
+                            <th scope="col">Qty</th>
+                            <th scope="col">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody id="target">
+                          <!-- <tr>
+                            <td colspan="5" class="gudluck"><input type="radio" id="first" class="save" > GEOPHYSICAL DATA SURVEY</td>
+                            <td><input type="text" class="calc border" value="250000" readonly></td>
+                            <td><input type="number" class="luck" value="1" id = "null1" ></td>
+                            <td><span class="output" id="me"></span></td>
+                          </tr> -->
+                          
+                        </tbody>
+                      </table>
+                </div>
+                <!--Another Table-->
+               
+                
+                <!--Another label input-->
+                <div class="row">
+                    <div class="col">
+                        <label class="" for="">Amount to Pay(<span id="strike-strike">N</span>)*</label><br>
+                    </div>
+                    <div class="col order1">
+                        <label class="" for="">Payer's Name*</label>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col">
+                        <input type="text" class="select-width amount-to-pay" id = "amount-to-pay" placeholder="Amount to pay" readonly>
+                    </div>
+                    
+                    <div class="col">
+                        <input type="text" class="select-width" id="payer-name" placeholder="Payer's Name">
+                    </div>
+                </div>
+                <!--Next input-->
+                <div class="row">
+                    <div class="col">
+                        <label class="" for="">Payer's Phone*</label><br>
+                    </div>
+                    <div class="col">
+                        <label class="" for="">Payer's State*</label>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col">
+                        <input type="text" class="select-width " id="phone" name="phone">
+                    </div>
+                    
+                    <div class="col">
+                        <select class="select-width" id="select-us">
+                            <option value="1">Abia</option>
+                            <option value="2">Adamawa</option>
+                            <option value="3">Akwa Ibom</option>
+                            <option value="4">Anambra</option>
+                            <option value="5">Bayelsa</option>
+                            <option value="6">Benue</option>
+                            <option value="7">Borno</option>
+                            <option value="8">Cross River</option>
+                            <option value="9">Delta</option>
+                            <option value="10">Ebonyi</option>
+                            <option value="11">Edo</option>
+                            <option value="12">Ekiti</option>
+                            <option value="13">Enugu</option>
+                            <option value="14">Gombe</option>
+                            <option value="15">Imo</option>
+                            <option value="16">Jigawa</option>
+                            <option value="17">Kaduna</option>
+                            <option value="18">Kano</option>
+                            <option value="19">Katsina</option>
+                            <option value="20">Kebbi</option>
+                            <option value="21">Kogi</option>
+                            <option value="22">Kwara</option>
+                            <option value="23">Lagos</option>
+                            <option value="24">Nasarawa</option>
+                            <option value="25">Niger</option>
+                            <option value="26">Ogun</option>
+                            <option value="27">Ondo</option>
+                            <option value="28">Osun</option>
+                            <option value="29">Oyo</option>
+                            <option value="30">Plateau</option>
+                            <option value="31">Rivers</option>
+                            <option value="32">Sokoto</option>
+                            <option value="33">Taraba</option>
+                            <option value="34">Yobe</option>
+                            <option value="35">Zamfara</option>
+                            <option value="36">FCT</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                
+                
+        </div>
+    
+        <div class="button-me">
+            <button class="btn btn-primary style-me" id="submit">submit</button>
+        </div>
+
+
+
+   </div>
+   <footer>
+     <p class="copyright"> Mere Daniel &copy; SharpCode 2020</p>
+   </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

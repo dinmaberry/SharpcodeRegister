@@ -1,0 +1,102 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  /*background-color: rgba(128, 128, 128, 0.027);*/
+}
+.payment {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(219, 100, 120);
+}
+.dpr-heading p {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: rgba(128, 128, 128, 0.842);
+}
+.general-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.select-width {
+  width: 340px;
+  height: 40px;
+}
+.space-out {
+  display: flex;
+}
+.structure {
+  margin-right: 100px;
+}
+.luck{
+  width: 50px;
+}
+.big {
+  width: 380px;
+  margin-top: 30px;
+  height: 40px;
+}
+
+.row {
+  margin-top: 20px;
+}
+.border {
+  border: none;
+  border-color: transparent;
+}
+.style-me {
+  margin-top: 20px;
+}
+#strike-strike{
+  text-decoration: line-through;
+  text-decoration-style: double;
+}
+.dept{
+  margin-top: 7px;
+  color: rgba(49, 49, 49, 0.733);
+  font-size: 17px;
+  font-weight: 800;
+}
+#center-me {
+  padding-left: 20px;
+}
+#logo-move{
+  margin-left: 20px;
+}
+#logout {
+  text-decoration: none;
+  color: #333333;
+}
+#logout:hover {
+  text-decoration: underline;
+  color: rgb(69, 69, 119);
+  font-size: 30px;
+}
+footer {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: #333333;
+}
+p.copyright {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  line-height: 40px;
+  font-size: 1.5em;
+  text-align: center;
+  bottom:0;
+}
+footer {
+  margin-top: 50px;
+  height: 60px;
+}
+
+
